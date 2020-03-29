@@ -1,0 +1,603 @@
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container {
+    width: 1200px;
+  }
+
+  .header {
+    padding: 38px 150px 0 150px;
+  }
+
+  .menu-item {
+    padding-top: 5px;
+  }
+
+  .menu-item ul li:last-child a {
+    padding: 12px 34px 12px 34px;
+  }
+
+  .home-title h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+  }
+
+  .searchbar-btn form input {
+    width: 500px;
+    padding: 20px 200px 20px 30px;
+  }
+
+  a.findbtn {
+    padding: 16px 26px 18px 26px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 992px;
+  }
+
+  .header {
+    padding: 38px 100px 0 100px;
+  }
+
+  .menu-item {
+    padding-top: 7px;
+  }
+
+  .menu-item ul li {
+    padding: 0 14px;
+  }
+
+  .menu-item ul li a {
+    font-size: 14px;
+  }
+
+  .menu-item ul li:last-child a {
+    padding: 10px 30px 10px 30px;
+  }
+
+  .home-title h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+  }
+
+  .searchbar-btn form input {
+    width: 500px;
+    padding: 20px 200px 20px 30px;
+  }
+
+  a.findbtn {
+    padding: 16px 30px 18px 30px;
+  }
+
+  .dest-btn a {
+    padding: 16px 32px;
+  }
+
+  .boat-title h2 {
+    font-size: 62px;
+  }
+
+  .boat-title h3 {
+    font-size: 26px;
+  }
+
+  .boat-btn a {
+    padding: 16px 32px;
+  }
+
+  .items-container form input {
+    padding: 14px 48px 15px 20px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 768px;
+  }
+
+  .header {
+    padding: 28px 20px 0 20px;
+  }
+
+  .menu-item {
+    padding-top: 7px;
+  }
+
+  .menu-item ul li {
+    padding: 0 14px;
+  }
+
+  .menu-item ul li a {
+    font-size: 14px;
+  }
+
+  .menu-item ul li:last-child a {
+    padding: 10px 30px 10px 30px;
+  }
+
+  .home-content {
+    padding-top: 200px;
+    padding-bottom: 225px;
+  }
+
+  .home-title h1 {
+    font-size: 52px;
+    padding-bottom: 50px;
+  }
+
+  .searchbar-btn form input {
+    border: 2px solid white;
+    width: 400px;
+    padding: 14px 110px 14px 30px;
+    font-size: 12px;
+  }
+
+  a.findbtn {
+    padding: 12px 10px 14px 10px;
+    border-top: none;
+    font-size: 14px;
+  }
+
+  .home-lst-item .container .col-25 {
+    padding: 24px 0;
+  }
+
+  .home-lst-item .container .col-25 h3 {
+    font-size: 25px;
+  }
+
+  .dest-title h3 {
+    font-size: 28px;
+  }
+
+  .dest-title p {
+    font-size: 15px;
+  }
+
+  .dest-btn a {
+    padding: 16px 32px;
+    font-size: 12px;
+  }
+
+  .boat-title h2 {
+    font-size: 55px;
+  }
+
+  .boat-title h3 {
+    font-size: 22px;
+  }
+
+  .boat-btn a {
+    padding: 16px 32px;
+  }
+
+  .items-container form input {
+    padding: 12px 0px 12px 10px;
+  }
+
+  .blog span:first-child {
+    font-size: 14px;
+  }
+
+  .blog p {
+    font-size: 24px;
+  }
+
+  .featuredblog span:first-child {
+    font-size: 14px;
+  }
+
+  .featuredblog p {
+    font-size: 24px;
+  }
+
+  .featuredblog span:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .featuredblog span:last-child {
+    font-size: 14px;
+    display: block;
+  }
+
+  .featured-btn a {
+    padding: 16px 32px;
+    font-size: 13px;
+  }
+
+  .items-six ul li:first-child a {
+    font-size: 13px;
+  }
+
+  .items-container p {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+
+  .items-container .item-btn {
+    padding: 11px 14px;
+    padding-bottom: 11px;
+    font-size: 12px;
+  }
+
+  section.footer .col-20:last-child .items-six {
+    padding-left: 0;
+  }
+
+  ul.social li a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 576px;
+  }
+
+  .header {
+    padding: 28px 20px 0 20px;
+  }
+
+  .col-20 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .col-40 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .col-80 {
+    width: 100%;
+  }
+
+  .menu-item {
+    padding-top: 7px;
+  }
+
+  .menu-item ul li {
+    padding: 0 14px;
+  }
+
+  .menu-item ul li a {
+    font-size: 14px;
+  }
+
+  .menu-item ul li:last-child a {
+    padding: 8px 28px;
+  }
+
+  .home-content {
+    padding-top: 200px;
+    padding-bottom: 225px;
+  }
+
+  .home-title h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+
+  .home-title h2 {
+    font-size: 24px;
+  }
+
+  .searchbar-btn form input {
+    border: 2px solid white;
+    width: 400px;
+    padding: 14px 110px 14px 30px;
+    font-size: 12px;
+  }
+
+  a.findbtn {
+    padding: 12px 10px 14px 10px;
+    border-top: none;
+    font-size: 14px;
+  }
+
+  .home-lst-item .container .col-25 {
+    padding: 24px 0;
+  }
+
+  .home-lst-item .container .col-25 h3 {
+    font-size: 25px;
+  }
+
+  .dest-title h3 {
+    font-size: 28px;
+  }
+
+  .dest-title p {
+    font-size: 15px;
+  }
+
+  .dest-btn a {
+    padding: 16px 32px;
+    font-size: 12px;
+  }
+
+  .boat-title h2 {
+    font-size: 40px;
+  }
+
+  .boat-title h3 {
+    font-size: 18px;
+  }
+
+  .boat-btn a {
+    padding: 16px 32px;
+  }
+
+  .items-container form input {
+    padding: 12px 0px 12px 10px;
+  }
+
+  .blog span:first-child {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .blog p {
+    font-size: 20px;
+  }
+
+  .featuredblog span:first-child {
+    font-size: 14px;
+  }
+
+  .featuredblog p {
+    font-size: 24px;
+  }
+
+  .featuredblog span:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .featuredblog span:last-child {
+    font-size: 14px;
+    display: block;
+  }
+
+  .featured-btn a {
+    padding: 16px 32px;
+    font-size: 13px;
+  }
+
+  .items-six ul li:first-child a {
+    font-size: 13px;
+  }
+
+  .items-container p {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+
+  .items-container .item-btn {
+    padding: 11px 14px;
+    padding-bottom: 11px;
+    font-size: 12px;
+  }
+
+  section.footer .col-20:last-child .items-six {
+    padding-left: 0;
+  }
+
+  ul.social li a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 576px;
+  }
+
+  .header {
+    padding: 28px 20px 0 20px;
+  }
+
+  .col-20 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .col-33 {
+    width: 50%;
+    padding: 10px 10px;
+  }
+
+  .col-40 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .col-50 {
+    width: 50%;
+    padding: 10px 10px;
+  }
+
+
+  .col-66 {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .col-80 {
+    width: 100%;
+  }
+
+  .items-six ul {
+    margin-right: 50px;
+  }
+
+  .items-container {
+    margin-right: 50px;
+  }
+
+  .menu-item {
+    padding-top: 7px;
+  }
+
+  .menu-item ul li {
+    padding: 0 14px;
+  }
+
+  .menu-item ul li a {
+    font-size: 13px;
+  }
+
+  .menu-item ul li:last-child a {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .home-content {
+    padding-top: 200px;
+    padding-bottom: 225px;
+  }
+
+  .home-title h1 {
+    font-size: 35px;
+    padding-bottom: 40px;
+  }
+
+  .home-title h2 {
+    font-size: 20px;
+  }
+
+  .searchbar-btn form input {
+    border: 2px solid white;
+    width: 300px;
+    padding: 14px 40px 14px 30px;
+    font-size: 12px;
+  }
+
+  a.findbtn {
+    padding: 12px 10px 14px 10px;
+    border-top: none;
+    font-size: 14px;
+  }
+
+  .home-lst-item .container .col-25:last-child {
+    margin-left: -20px;
+  }
+
+  .home-lst-item .container .col-25:nth-child(3) {
+    margin-left: -20px;
+  }
+
+  .home-lst-item .container .col-25:nth-child(2) {
+    margin-left: -20px;
+  }
+
+  .home-lst-item .container .col-25 .col-items {
+    display: inline-block;
+  }
+
+  .home-lst-item .container .col-25 {
+    padding: 24px 0;
+  }
+
+  .home-lst-item .container .col-25 h3 {
+    font-size: 25px;
+  }
+
+  .dest-title h3 {
+    font-size: 28px;
+  }
+
+  .dest-title p {
+    font-size: 15px;
+  }
+
+  .dest-btn a {
+    padding: 16px 32px;
+    font-size: 12px;
+  }
+
+  .boat-title h2 {
+    font-size: 40px;
+  }
+
+  .boat-title h3 {
+    font-size: 18px;
+  }
+
+  .boat-btn a {
+    padding: 16px 32px;
+  }
+
+  .items-container form input {
+    padding: 12px 0px 12px 10px;
+  }
+
+  .blog span:first-child {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .blog p {
+    font-size: 20px;
+  }
+
+  .featuredblog span:first-child {
+    font-size: 14px;
+  }
+
+  .featuredblog p {
+    font-size: 24px;
+  }
+
+  .featuredblog span:nth-child(3) {
+    font-size: 14px;
+  }
+
+  .featuredblog span:last-child {
+    font-size: 14px;
+    display: block;
+  }
+
+  .featured-btn a {
+    padding: 16px 32px;
+    font-size: 13px;
+  }
+
+  .items-six ul li:first-child a {
+    font-size: 13px;
+  }
+
+  .items-container p {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+
+  .items-container .item-btn {
+    padding: 11px 14px;
+    padding-bottom: 11px;
+    font-size: 12px;
+  }
+
+  section.footer .col-20:last-child .items-six {
+    padding-left: 0;
+  }
+
+  ul.social li a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+  }
+}
