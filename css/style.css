@@ -397,6 +397,7 @@ section#footer {
 .item-07 p {
   font-size: 14px;
   color: #A3B1BF;
+  padding-bottom: 5px;
 }
 
 .item-07 p:nth-child(4) i {
